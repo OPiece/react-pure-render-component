@@ -1,0 +1,39 @@
+{
+  "name": "react-pure-render-component",
+  "version": "1.0.0",
+  "description": "React pure render component.",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "node --harmony ./cli/build",
+    "lint": "eslint --max-warnings 10 .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "mocha",
+    "release": "bash ./cli/release.sh"
+  },
+  "keywords": [
+    "react",
+    "pure-render",
+    "react-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OPiece/react-pure-render-component.git"
+  },
+  "author": "lianruhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OPiece/react-pure-render-component/issues"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.1.2"
+  }
+}
