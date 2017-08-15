@@ -10,5 +10,6 @@ export const pureRender = component => {
   return component
 }
 
-@pureRender
-export default class Base extends Component {}
+class Base extends Component {}
+
+export default pureRender(Base)

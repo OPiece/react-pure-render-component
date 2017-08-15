@@ -1,3 +1,5 @@
+require('babel-register')
+
 var fs = require('fs')
 var rollup = require('rollup')
 var uglify = require('uglify-js')
