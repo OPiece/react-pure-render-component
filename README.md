@@ -5,7 +5,20 @@
 ## Usage
 
 ```
-  npm install 'react-pure-render-component'
+npm install
+
+// 打包
+npm run build
+
+// test
+npm run test
+
+```
+
+## examples
+
+```
+  npm install react-pure-render-component
 
   // 引入 react base component
   import Base form 'react-pure-render-component'
@@ -25,4 +38,4 @@
 
 ## LICENSE
 
-[MIT]()
+[MIT](https://github.com/OPiece/react-pure-render-component/blob/master/LICENSE)
