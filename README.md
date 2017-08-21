@@ -1,8 +1,8 @@
 # react-pure-render-component
 
-引用 immutable.js, 重写组件的 shouldComponentUpdate，减少组件不必要的组件 render
+引用 immutable.js, 重写组件的 shouldComponentUpdate，减少组件不必要的 render
 
-## Usage
+## Scripts
 
 ```
 npm install
@@ -15,7 +15,7 @@ npm run test
 
 ```
 
-## examples
+## Usage
 
 ```
   npm install react-pure-render-component
